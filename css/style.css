@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #162b32;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 17%;
+}
+
+header h1 {
+  color: white;
+  font-size: 40px;
+}
+
+#description {
+  color: #b4b4b4;
+  font-weight: lighter;
+  padding-top: 10px;
+}
+
+#description span {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline #ff4838;
+}
+
+#doda {
+  color: #b4b4b4;
+  padding-top: 15px;
+}
+
+#doda span {
+  color: white;
+}
+
+header h3 {
+  color: #909090;
+  padding-top: 10px;
+}
+
+header h3 a {
+  color: white;
+}
+
+header h3 a:hover {
+  text-decoration: underline #ff4838;
+}
+
+nav ul {
+  list-style: none;
+  padding-top: 30px;
+}
+
+nav ul li {
+  display: inline;
+  padding-right: 30px;
+}
+
+nav ul li a:hover {
+  border-bottom: 2px #ff4838 solid;
+}
+
+.current {
+  border-bottom: 2px #ff4838 solid;
+}
+
+nav ul li a {
+  padding-bottom: 5px;
+}
+.menubutton {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  #description {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  #homenav {
+    display: none;
+  }
+
+  #doda {
+    padding-bottom: 20px;
+  }
+
+  .menubutton {
+    display: block;
+    font-size: 50px;
+  }
+}
